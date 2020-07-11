@@ -373,4 +373,31 @@ button:hover {
     text-align: center; 
     height: 80%;
   }
+
+  .projects-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 10% 80%;
+  }
+
+  .projects-main-container {
+    margin-top: -40%;
+  }
+
+  .projects-main-container h1 {
+    font-size: 120%;
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .donut-project {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .donut-project a {
+    background-size: 70%;
+  }
 }

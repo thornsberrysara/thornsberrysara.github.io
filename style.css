@@ -254,6 +254,33 @@ button:hover {
 
 
 @media screen and (max-width: 375px) {
+  i {
+    color: white;
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+  .nav-container {
+    height: 20%;
+  }
+
+  .nav-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-content: center;
+  margin: auto;
+  margin-top: 10%;
+  height: 20%;
+  }
+
+  .nav-container li {
+    float: left;
+  }
+
   .all-content {
     display: flex;
     flex-direction: column;
@@ -262,13 +289,9 @@ button:hover {
   .main-container {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 3%;
     width: auto;
     height: 50%;
-  }
-
-  .nav-container{
-    display: none;
   }
 
   .image-container {
@@ -280,7 +303,7 @@ button:hover {
   }
 
   h1 {
-    font-size: 200%;
+    font-size: 180%;
   }
 
   h2 {
@@ -289,7 +312,7 @@ button:hover {
   }
 
   button {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 25%;
     height: 30%;
     background-color: #e172bf;

@@ -178,6 +178,7 @@ button {
   font-family: "Cuprum", sans-serif;
   margin-top: -16%;
   font-size: 100%;
+  background-color: white;
   color: #e172bf;
   border: none;
 }
@@ -345,7 +346,7 @@ button:hover {
     text-align: center;
     font-size: 120%;
     width: 100%;
-    height: 10%;
+    height: 20%;
     margin-top: 40%;
   }
 
@@ -354,7 +355,7 @@ button:hover {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     height: 80%;
-    margin-top: 40%;
+    margin-top: 50%;
     text-align: center;
   }
 
@@ -395,6 +396,7 @@ button:hover {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    margin-top: 20%;
   }
 
   .donut-project a {

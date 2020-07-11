@@ -262,14 +262,16 @@ button:hover {
     float: left;
   }
 
-  .nav-container {
+  .nav-container,
+  .projects-nav-container {
     height: 10%;
     width: 100%;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
   }
 
-  .nav-container ul {
+  .nav-container ul,
+  .projects-nav-container ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -280,7 +282,8 @@ button:hover {
   height: 20%;
   }
 
-  .nav-container li {
+  .nav-container li,
+  .projects-nav-container li {
     float: left;
   }
 
@@ -343,7 +346,7 @@ button:hover {
     font-size: 120%;
     width: 100%;
     height: 10%;
-    margin-top: 30%;
+    margin-top: 40%;
   }
 
   .list-container-center {

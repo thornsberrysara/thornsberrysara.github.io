@@ -127,13 +127,22 @@ h2 {
   height: 100%;
 }
 
-.skills-main-container h1, .contact-main-container h1 {
+.skills-main-container h1 {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   color: white;
   margin-left: 10%;
   margin-top: 100%;
+}
+
+.contact-main-container h1 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  color: white;
+  margin-left: 10%;
+  margin-top: 50%;
 }
 
 .list-container-center {

@@ -115,10 +115,16 @@ p {
     .container {
         display: flex;
         justify-content: center;
+        width: 100%;
+        height: 100%;
     }
 
     a {
-        font-size: 80%;
+        display: none;
+    }
+
+    .click-handler__donut-display {
+        font-size: 180%;
     }
 
     .click-handler__bake-button {
@@ -127,19 +133,38 @@ p {
         height: 7em;
     }
 
+    .click-handler__bake-button:active {
+        width: 7em;
+        height: 7em;
+    }
+
     .auto-clicker__purchase-button, .click-multiplier__purchase-button {
-        width: 150%;
-        height: 50%;
+        width: 30em;
+        height: 8em;
+        font-size: 30%;
+    }
+
+    .auto-clicker__purchase-button:active, .click-multiplier__purchase-button:active {
+        width: 30em;
+        height: 8em;
         font-size: 30%;
     }
 
     .reset-button {
-        width: 70%;
-        height: 50%;
+        width: 15em;
+        height: 5em;
+        font-size: 30%;
+    }
+
+    .reset-button:active {
+        width: 15em;
+        height: 5em;
         font-size: 30%;
     }
 
     html {
         text-align: center;
+        width: 100%;
+        height: 100%;
     }
 }

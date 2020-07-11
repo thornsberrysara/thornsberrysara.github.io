@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./donut-style.css" />
+    <link rel="stylesheet" href="./layout.css" />
+    <title>Donut Maker</title>
+  </head>
+  <section class="background">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="fred-the-baker.html">Fred the Baker Baking Company</a>
+          </li>
+          <li>
+            <a href="about-donut-maker.html">About Donut Maker</a></li>
+          <li>
+            <a href="donut-contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <body>
+      <div class="container">
+        <div class="anchor">
+          <section class="main">
+            <section class="click-handler">
+              <button class="click-handler__bake-button" onclick="playSFX()"></button>
+              <p
+                class="click-handler__donut-display"
+                style="padding-top: 20px;"
+              >
+                0
+              </p>
+            </section>
+
+            <section class="auto-clicker">
+              <button class="auto-clicker__purchase-button" onclick="playRegister()">
+                PURCHASE AUTO CLICKER FOR: 100
+              </button>
+              <p class="auto-clicker__auto-clicks-display">0</p>
+            </section>
+
+            <section class="click-multiplier">
+              <button class="click-multiplier__purchase-button" onclick="playRegister()">
+                PURCHASE MULTIPLIER COST: 10
+              </button>
+              <p class="click-multiplier__multiplier-display">1x</p>
+            </section>
+
+            <section class="reset">
+              <button class="reset-button">RESET</button>
+            </section>
+          </section>
+          <audio id="register-audio">
+                <source src="./register.wav" type="audio/wav">
+              </audio>
+              <audio id="click-audio">
+                    <source src="./sfx.wav" type="audio/wav">
+                  </audio>
+        </div>
+      </div>
+
+      <script src="./donutMaker.js"></script>
+      <script src="./app.js"></script>
+    </body>
+  </section>
+</html>

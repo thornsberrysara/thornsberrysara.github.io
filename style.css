@@ -172,19 +172,34 @@ h2 {
 }
 
 button {
-  width: 15%;
-  height: 40%;
-  border-radius: 1em;
+  width: 13%;
+  height: 35%;
+  border-radius: 1.1em;
   font-family: "Cuprum", sans-serif;
   margin-top: -16%;
   font-size: 100%;
   background-color: white;
-  color: #e172bf;
+  color: #8c52ff;
   border: none;
+  outline: none;
+}
+
+.contact-button a {
+  font-size: 100%;
+  background-color: white;
+  color: #8c52ff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.contact-button a:hover {
+  background-color: #8c52ff;
+  color: white;
 }
 
 button:hover {
-  background-color: #e172bf;
+  background-color: #8c52ff;
   color: white;
 }
 
@@ -420,6 +435,7 @@ button:hover {
   .contact-icons i {
     font-size: 80%;
     margin-bottom: -10%;
+    text-align: right;
   }
 
   .email-text {

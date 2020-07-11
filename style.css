@@ -304,6 +304,7 @@ button:hover {
 
   h1 {
     font-size: 180%;
+    margin-top: 10%;
   }
 
   h2 {
@@ -312,7 +313,7 @@ button:hover {
   }
 
   button {
-    margin-top: 5%;
+    margin-top: 10%;
     width: 25%;
     height: 30%;
     background-color: #e172bf;

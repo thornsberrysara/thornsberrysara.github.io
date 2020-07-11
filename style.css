@@ -347,8 +347,13 @@ button:hover {
     margin-top: 10%;
     width: 25%;
     height: 50%;
-    background-color: #8c52ff;
-    color: white;
+    background-color: white;
+    color: #8c52ff;
+  }
+
+  button a {
+    background-color: white;
+    color: #8c52ff;
   }
 
   .about {

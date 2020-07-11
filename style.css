@@ -343,6 +343,7 @@ button:hover {
     font-size: 120%;
     width: 100%;
     height: 10%;
+    margin-top: 30%;
   }
 
   .list-container-center {
@@ -366,7 +367,6 @@ button:hover {
   .list-container-center ul, .list-container-right ul {
     display: flex;
     flex-direction: column;
-    margin-top: 100%;
     text-align: center; 
     height: 80%;
   }

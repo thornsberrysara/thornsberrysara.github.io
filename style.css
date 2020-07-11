@@ -254,7 +254,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1220px) {
   i {
     color: white;
     font-size: 100%;
@@ -327,6 +327,19 @@ button:hover {
     color: white;
   }
 
+  .about {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    text-align: left;
+    font-size: 120%;
+    width: 100%;
+    height: 20%;
+    margin-top: 40%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+  }
+
   .skills-body {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -348,6 +361,8 @@ button:hover {
     width: 100%;
     height: 20%;
     margin-top: 40%;
+    padding-top: 20%;
+    padding-bottom: 30%;
   }
 
   .list-container-center {
@@ -355,7 +370,7 @@ button:hover {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     height: 80%;
-    margin-top: 50%;
+    margin-top: 70%;
     text-align: center;
   }
 
@@ -364,7 +379,7 @@ button:hover {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     height: 80%;
-    margin-top: 40%;
+    margin-top: 70%;
     text-align: center;
   }
 

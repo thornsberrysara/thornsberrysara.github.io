@@ -333,9 +333,12 @@ button:hover {
   .image-container {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-    max-height: 50%;
     margin: auto;
+  }
+
+  .image-container img {
+    width: 40vh;
+    height: 40vh;
   }
 
   h1 {

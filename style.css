@@ -230,6 +230,10 @@ button:hover {
   max-height: max-content;
 }
 
+.donut-project h2 {
+  display: none;
+}
+
 .image-container, .contact-icons {
   display: grid;
   grid-column: 3 / 4;
@@ -436,11 +440,10 @@ button:hover {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    
   }
 
   .donut-project a {
-    background-size: 60%;
+    background-size: contain;
   }
 
   .contact-icons {

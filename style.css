@@ -272,7 +272,7 @@ button:hover {
 }
 
 .contact-icons a:hover {
-    color: #e172bf;
+    color: #8c52ff;
 }
 
 .email-text {
@@ -334,6 +334,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: auto;
+    justify-content: center;
   }
 
   .image-container img {

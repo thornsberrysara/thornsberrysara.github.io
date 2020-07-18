@@ -393,9 +393,13 @@ button:hover {
     padding-bottom: 40%;
   }
 
+  .about-2 {
+    display: flex;
+  }
+
   .profile-image {
     display: flex;
-    
+
   }
 
   .profile-image img {

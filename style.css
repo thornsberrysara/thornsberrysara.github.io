@@ -50,6 +50,20 @@ ul {
   font-size: 2.5vh;
 }
 
+.profile-image {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-image img {
+  margin-top: 35%;
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .nav-container {
   display: grid;
   grid-column: 1 / 2;

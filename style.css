@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   font-family: "Cuprum", sans-serif;
-  margin-top: -10vh;
+  margin-top: -8vh;
 }
 
 ul {
@@ -181,15 +181,14 @@ ul {
   font-size: 140%;
 }
 
-button {
+.contact-button {
   width: 10vh;
   height: 4vh;
   border-radius: 1.1em;
   font-family: "Cuprum", sans-serif;
-  margin-top: -16vh;
+  margin-top: -13vh;
   font-size: 100%;
   background-color: white;
-  color: #8c52ff;
   border: none;
   outline: none;
 }
@@ -457,6 +456,7 @@ button:hover {
   }
 
   .donut-project a {
+    background-image: url("./images/donut-screenshot.png");
     background-size: contain;
   }
 

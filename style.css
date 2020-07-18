@@ -394,11 +394,14 @@ button:hover {
   }
 
   .profile-image {
+    display: flex;
     
   }
 
   .profile-image img {
     margin-top: 20%;
+    width: 60%;
+    height: 60%;
   }
 
   .skills-body {

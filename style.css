@@ -395,6 +395,13 @@ button:hover {
     padding-bottom: 40%;
   }
 
+  .profile-image {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    text-align: center;
+  }
+
   .skills-body {
     display: grid;
     grid-template-columns: 50% 50%;

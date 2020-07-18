@@ -456,8 +456,10 @@ button:hover {
   }
 
   .donut-project a {
-    background-image: url("./images/donut-screenshot.png");
-    background-size: contain;
+    content: url("./images/donut-screenshot.png");
+    width: 60%;
+    height: auto;
+    justify-content: center;
   }
 
   .contact-main-container {

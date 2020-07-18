@@ -223,9 +223,9 @@ button:hover {
 
 .donut-project a {
   color: white;
-  background-image: url("./images/donut-screenshot.png");
+  /* background-image: url("./images/donut-screenshot.png"); */
   background-repeat: no-repeat;
-  max-width: 100%;
+  max-width: 80%;
   max-height: max-content;
 }
 
@@ -456,10 +456,10 @@ button:hover {
   }
 
   .donut-project a {
-    content: url("./images/donut-screenshot.png");
-    width: 60%;
-    height: auto;
-    justify-content: center;
+    /* content: url("./images/donut-screenshot.png"); */
+    max-width: 70%;
+    max-height: 25%;
+    margin: auto;
   }
 
   .contact-main-container {

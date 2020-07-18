@@ -393,7 +393,7 @@ button:hover {
   .about-2 {
     display: flex;
     font-size: 100%;
-    margin-bottom: 70%;
+    margin-bottom: 100%;
   }
 
   .profile-image {
@@ -403,7 +403,7 @@ button:hover {
   .profile-image img {
     margin-top: 30%;
     width: 40%;
-    height: auto;
+    height: 60%;
   }
 
   .skills-body {

@@ -393,12 +393,13 @@ li img {
   .profile-image {
     width: 45vh;
     height: 95vh;
+    margin-top: 20%;
   }
 
   .profile-image img {
     display: flex;
     width: 40vh;
-    height: 40vh;
+    height: auto;
     align-content: center;
   }
 

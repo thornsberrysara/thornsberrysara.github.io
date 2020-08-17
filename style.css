@@ -386,14 +386,14 @@ li img {
     display: flex;
     flex-direction: row;
     font-size: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 20%;
     width: 90%;
   }
 
   .profile-image {
     width: 45vh;
     height: 95vh;
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .profile-image img {

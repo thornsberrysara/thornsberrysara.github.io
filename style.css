@@ -312,6 +312,10 @@ li img {
     margin-top: -6vh;
   }
 
+  .projects-nav-container {
+    height: 100%;
+  }
+
   .nav-container ul,
   .projects-nav-container ul {
     display: flex;

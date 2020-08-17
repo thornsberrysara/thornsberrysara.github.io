@@ -159,23 +159,6 @@ li img {
   grid-template-columns: 3% 33% 32% 32%;
   grid-template-rows: 1fr;
 }
-/* 
-.projects-body {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 5fr 5fr 5fr;
-} */
-
-/* .projects-main-container h1 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  color: white;
-  margin-left: 10%;
-  margin-top: 60vh;
-} */
 
 .skills-main-container,
 .contact-main-container,
@@ -440,7 +423,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     text-align: center;
-    margin-top: 55%;
+    margin-top: 60%;
   }
 
   .project-images-left {
@@ -460,7 +443,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     text-align: center;
-    margin-top: 55%;
+    margin-top: 60%;
   }
 
   .list-container-center ul,

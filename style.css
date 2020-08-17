@@ -393,20 +393,16 @@ li img {
   .profile-image {
     width: 45vh;
     height: 95vh;
-    margin-top: 20%;
+    margin-top: 30%;
   }
 
   .profile-image img {
     display: flex;
-    width: 40vh;
-    height: auto;
+    width: 20vh;
+    height: 20vh;
     align-content: center;
   }
 
-  .profile-image img {
-    width: 40%;
-    height: 40%;
-  }
 
   .skills-body,
   .projects-body {

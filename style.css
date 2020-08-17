@@ -312,10 +312,6 @@ li img {
     margin-top: -6vh;
   }
 
-  .projects-nav-container {
-    height: 100%;
-  }
-
   .nav-container ul,
   .projects-nav-container ul {
     display: flex;
@@ -415,7 +411,7 @@ li img {
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 10% 80%;
     width: 100%;
-    height: 120%;
+    height: 150%;
   }
 
   .skills-main-container,

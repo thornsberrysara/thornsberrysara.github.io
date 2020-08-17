@@ -440,7 +440,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 100%;
   }
 
   .project-images-left {
@@ -460,7 +460,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 100%;
   }
 
   .list-container-center ul,

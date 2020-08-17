@@ -319,8 +319,7 @@ li img {
     list-style: none;
     justify-content: space-around;
     align-content: center;
-    height: 20%;
-    margin-bottom: 20%;
+    height: 50%;
   }
 
   .nav-container li,

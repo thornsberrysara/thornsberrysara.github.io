@@ -421,7 +421,7 @@ li img {
     display: grid;
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    height: 20%;
+    height: 100%;
     padding-top: 15%;
     width: 90%;
   }
@@ -440,7 +440,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 60%;
   }
 
   .project-images-left {
@@ -460,7 +460,7 @@ li img {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 60%;
   }
 
   .list-container-center ul,

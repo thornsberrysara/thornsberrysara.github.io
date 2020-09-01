@@ -140,7 +140,7 @@ h2 {
 }
 
 .skills p {
-  height: auto;
+  height: 700%;
   margin-top: 2vh;
   -moz-column-count: 2;
   -moz-column-gap: 20px;

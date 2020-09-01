@@ -232,9 +232,9 @@ p {
 
 @media only screen and (min-width: 600px) {
   .bio {
-    margin-top: 5vh;
-    padding-left: 40vh;
-    padding-right: 40vh;
+    margin-top: 2vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
   }
 
   .profile {

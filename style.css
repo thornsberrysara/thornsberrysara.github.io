@@ -140,7 +140,6 @@ h2 {
 }
 
 .skills {
-  margin-top: 3vh;
   display: flex;
   flex-direction: row;
 }
@@ -155,7 +154,7 @@ h2 {
 .left li,
 .right li {
   height: auto;
-  padding: .6vh;
+  padding: .4vh;
   background-image: none;
   position: relative;
   -webkit-animation: diagonal 2s;

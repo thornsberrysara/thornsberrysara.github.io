@@ -4,59 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Press+Start+2P&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Peta&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Sara Thornsberry</title>
+    <script
+      src="https://kit.fontawesome.com/ec2ecd76e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
   </head>
   <body>
-    <div class="all-content">
-      <header class="nav-container">
-        <nav>
-          <ul>
-            <li>
-              <a href="./index.html"
-                ><img src="./images/home.png" alt="Home"
-              /></a>
-            </li>
-            <li>
-              <a href="./about.html"
-                ><img src="./images/about.png" alt="About"
-              /></a>
-            </li>
-            <li>
-              <a href="./skills.html"
-                ><img src="./images/skills.png" alt="Skills"
-              /></a>
-            </li>
-            <li>
-              <a href="./projects.html"
-                ><img src="./images/projects.png" alt="Projects"
-              /></a>
-            </li>
-            <li>
-              <a href="./contact.html"
-                ><img src="./images/contact.png" alt="Contact"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="main-container">
-        <h1 class="about">ABOUT</h1>
-        <h2 class="about-2">
-          Hey, I'm Sara. I'm a graduate of We Can Code IT, a full-stack
-          software development bootcamp in Columbus, OH. When I can catch a
-          break from writing code, I'm either working on old-school Japanese
-          cars or playing arcade games. If you can't tell, that's kind of my
-          thing.
-        </h2>
-      </section>
-      <section class="profile-image">
-        <img src="./images/portfolio-image.jpg" alt="Sara Thornsberry" />
-      </section>
+    <div class="dropdown">
+      <button onclick="drop()" class="drop-button">...</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="./index.html">home</a>
+        <a href="./about.html">about</a>
+        <a href="./skills.html">skills</a>
+        <a href="./projects.html">projects</a>
+        <a href="./contact.html">contact</a>
+      </div>
+      <h1>ABOUT</h1>
+      <h2 class="bio">
+        Hey, I'm Sara. I'm a graduate of We Can Code IT, a full-stack software
+        development bootcamp in Columbus, Ohio. While I'm able to work my magic on the back-end, 
+        I'm super passionate about front-end development and design. When I can catch a break from
+        writing code, I'm either working on old-school Japanese cars or playing video games.
+      </h2>
+      <img class="profile" src="./portfolio-image.jpg" alt="Sara Thornsberry">
     </div>
   </body>
+  <script src="./drop.js"></script>
 </html>

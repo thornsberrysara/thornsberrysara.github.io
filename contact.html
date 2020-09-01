@@ -4,57 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Press+Start+2P&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Peta&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Sara Thornsberry</title>
+    <script
+      src="https://kit.fontawesome.com/ec2ecd76e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
   </head>
   <body>
-    <div class="skills-body">
-      <header class="nav-container">
-        <nav>
-          <ul>
-            <li>
-              <a href="./index.html"
-                ><img src="./images/home.png" alt="Home"
-              /></a>
-            </li>
-            <li>
-              <a href="./about.html"
-                ><img src="./images/about.png" alt="About"
-              /></a>
-            </li>
-            <li>
-              <a href="./skills.html"
-                ><img src="./images/skills.png" alt="Skills"
-              /></a>
-            </li>
-            <li>
-              <a href="./projects.html"
-                ><img src="./images/projects.png" alt="Projects"
-              /></a>
-            </li>
-            <li>
-              <a href="./contact.html"
-                ><img src="./images/contact.png" alt="Contact"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="contact-main-container">
-        <h1>CONTACT</h1>
-      </section>
-      <section class="contact-info">
-        <ul class="contact-list">
-          <li><a href="https://www.linkedin.com/in/thornsberrysara/"><img src="./images/linkedin.png" alt="LinkedIn"></a></li>
-          <li class="github"><a href="https://github.com/thornsberrysara"><img src="./images/github.png" alt="GitHub"></a></li>
-          <li><img src="./images/contact.png" alt="Email"></li>
-          <li class="email-text">thornsberrysara@gmail.com</li>
-        </ul>
-      </section>
+    <div class="dropdown">
+      <button onclick="drop()" class="drop-button">...</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="./index.html">home</a>
+        <a href="./about.html">about</a>
+        <a href="./skills.html">skills</a>
+        <a href="./projects.html">projects</a>
+        <a href="./contact.html">contact</a>
+      </div>
+      <h1>CONTACT</h1>
+      <h2 class="contact">
+        <p class="icons">
+            <a class="linkedin" href="https://www.linkedin.com/in/thornsberrysara/" target="blank"><i class="fab fa-linkedin"></i></a><br><br>
+            <a class="github" href="https://github.com/thornsberrysara" target="blank"><i class="fab fa-github"></i></a><br><br>
+            <a class="email" href="mailto: thornsberrysara@gmail.com" target="blank"><i class="far fa-envelope"></i></a><br><br>
+            <a class="resume" href="./updated-resume.pdf" target="blank"><i class="far fa-file"></i></a>
+        </p>
+      </h2>
     </div>
   </body>
+  <script src="./drop.js"></script>
 </html>

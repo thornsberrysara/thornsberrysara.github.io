@@ -29,12 +29,6 @@ i {
   font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
-.drop-button:hover,
-.drop-button:focus {
-  background-color: #eed0d5;
-  background-image: none;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -44,7 +38,7 @@ i {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #eed0d5;
+  background-color: #f8d9de;
   background-image: none;
   width: 10em;
   height: auto;
@@ -155,9 +149,6 @@ h2 {
   column-count: 2;
   column-gap: 20px;
   background-image: none;
-}
-
-.skills p {
   position: relative;
   -webkit-animation: diagonal 2s;
   -moz-animation: diagonal 2s;
@@ -231,4 +222,40 @@ p {
     background-image: none;
     color: #0f2249;
     text-decoration: none;
+}
+
+.boxes {
+  background-image: none;
+  height: 70%;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .bio {
+    margin-top: 5vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+  }
+
+  .profile {
+    margin-top: 15vh;
+  }
+
+  .skills p {
+    margin-top: 5vh;
+    padding-left: 25vh;
+    padding-right: 25vh;
+  }
+
+  .projects li {
+    width: 35%;
+    height: 25%;
+    padding-top: 5vh;
+  }
+
+  .boxes {
+    background-image: none;
+    padding-left: 30vh;
+    padding-right: 30vh;
+  }
 }

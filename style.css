@@ -253,6 +253,31 @@ p {
     padding-top: 5vh;
   }
 
+  .projects li:hover {
+    background-color: #f0dcdf;
+    position: relative;
+  -webkit-animation: projects .6s normal ease-out;
+  animation: projects .6s normal ease-out;
+  }
+
+  @-webkit-keyframes projects {
+    0% {
+      top: 6px;
+    }
+    70% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes projects {
+    0% {
+      top: 6px;
+    }
+    70% {
+      top: 0px;
+    }
+  }
+
   .boxes {
     background-image: none;
     padding-left: 30vh;

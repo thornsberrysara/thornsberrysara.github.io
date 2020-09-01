@@ -140,19 +140,22 @@ h2 {
 }
 
 .skills {
-  height: 70vh;
-  
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
 }
 
-.skills p {
+.skills ul {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+}
+
+.left li,
+.right li {
   height: auto;
-  margin-top: 2vh;
-  -moz-column-count: 2;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
-  column-count: 2;
-  column-gap: 20px;
+  padding: 1vh;
   background-image: none;
   position: relative;
   -webkit-animation: diagonal 2s;
@@ -163,7 +166,7 @@ h2 {
 
 @-webkit-keyframes diagonal {
   0% {
-    transform: translatex(-30px) translatey(-30px);
+    transform: translatex(-20px) translatey(-20px);
   }
   40% {
     transform: translatex(20px) translatey(20px);
@@ -172,7 +175,7 @@ h2 {
 
 @keyframes diagonal {
   0% {
-    transform: translatex(-30px) translatey(-30px);
+    transform: translatex(-20px) translatey(-20px);
   }
   40% {
     transform: translatex(20px) translatey(20px);
@@ -267,7 +270,6 @@ p {
   margin-right: auto;
   margin-bottom: 5vh;
   background-color: #f8d9de;
-  vertical-align: middle;
   text-align: center;
   box-shadow: 0px 6px 12px 0px #0f2249;
   font-family: "Abel", monospace;

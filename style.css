@@ -139,8 +139,12 @@ h2 {
   margin-top: 35vh;
 }
 
+.skills {
+  height: 70vh;
+}
+
 .skills p {
-  height: 700%;
+  height: auto;
   margin-top: 2vh;
   -moz-column-count: 2;
   -moz-column-gap: 20px;

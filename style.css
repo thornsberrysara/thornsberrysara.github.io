@@ -45,7 +45,7 @@ i {
   box-shadow: 0px 8px 16px 0px #00000033;
   z-index: 1;
   right: 0;
-  font-family: monospace;
+  font-family: "Abel", monospace;
   font-size: 1em;
 }
 
@@ -81,7 +81,7 @@ h2 {
   background-image: none;
   height: 10%;
   font-size: 1.2em;
-  font-family: monospace;
+  font-family: "Abel", monospace;
   text-align: center;
   color: #0f2249;
 }
@@ -240,41 +240,49 @@ p {
 }
 
 .projects {
-  margin-top: 5vh;
   background-image: none;
-  height: 70%;
-  -moz-column-count: 2;
-  -moz-column-gap: 1vh;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 1vh;
-  column-count: 2;
-  column-gap: 1vh;
+  display: flex;
 }
 
-.projects li {
+.projects ul {
   background-image: none;
-  height: 20%;
-  width: 70%;
-  background-color: #f8d9de;
-  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-left a,
+.projects-right a {
+  background-image: none;
+  height: 15%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5vh;
+  background-color: #f8d9de;
   text-align: center;
   box-shadow: 0px 6px 12px 0px #0f2249;
-  font-family: monospace;
-  
+  font-family: "Abel", monospace;
+}
+
+.projects-left ul,
+.projects-right ul {
+  background-image: none;
+  text-align: center;
+}
+
+.projects-left li,
+.projects-right li {
+  background-image: none;
+  height: 10%;
+  width: 100%;
+  text-align: center;
 }
 
 .projects a {
   background-image: none;
   color: #0f2249;
   text-decoration: none;
-}
-
-.boxes {
-  background-image: none;
-  height: 70%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -294,23 +302,25 @@ p {
     padding-right: 25vh;
   }
 
-  .projects li {
-    width: 35%;
-    height: 25%;
-    padding-top: 5vh;
+  .projects {
+    padding-left: 20vh;
+    padding-right: 20vh;
+    height: 70%;
   }
 
-  .projects li:hover {
+  .projects-left a,
+  .projects-right a {
+    width: 30%;
+    height: 20%;
+  }
+
+  .projects-left a:hover,
+  .projects-right a:hover {
     background-color: #f0dcdf;
     position: relative;
-    width: 36%;
-    height: 26%;
+    width: 32%;
+    height: 22%;
     transition: width 0.45s;
-  }
-
-  .boxes {
-    background-image: none;
-    padding-left: 30vh;
-    padding-right: 30vh;
+    font-size: 1em;
   }
 }

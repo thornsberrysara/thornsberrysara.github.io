@@ -218,7 +218,8 @@ p {
   }
 }
 
-.github {
+.github,
+.resume {
   -webkit-animation: left 2s normal ease-out;
   animation: left 2s normal ease-out;
 }

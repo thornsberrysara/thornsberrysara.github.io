@@ -142,6 +142,7 @@ h2 {
 .skills {
   display: flex;
   flex-direction: row;
+  height: 70%;
 }
 
 .skills ul {
@@ -305,10 +306,14 @@ p {
     margin-top: 15vh;
   }
 
-  .skills p {
+  .skills {
     margin-top: 5vh;
     padding-left: 25vh;
     padding-right: 25vh;
+  }
+
+  .skills li {
+    padding: 1vh;
   }
 
   .projects {

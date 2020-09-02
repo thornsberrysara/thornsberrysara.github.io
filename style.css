@@ -155,6 +155,10 @@ i {
   display: flex;
   height: 70%;
   margin-top: 5vh;
+
+  -webkit-animation: fadein 2.5s; 
+  -moz-animation: fadein 2.5s;
+  animation: fadein 2.5s;
 }
 
 .projects a {
@@ -232,6 +236,22 @@ i {
     transform: translatex(20px) translatey(20px);
   }
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 
 @-webkit-keyframes img {
   0% {

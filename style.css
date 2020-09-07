@@ -11,7 +11,7 @@
 
 .bio {
   padding: 4vh;
-  text-align: justify;
+  text-align: center;
   margin-top: -3vh;
 }
 
@@ -346,7 +346,7 @@ i {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .bio {
     margin-top: 2vh;
     padding-left: 50vh;

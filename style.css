@@ -228,7 +228,7 @@ i {
   color: #0f2249;
   padding-left: 2vh;
   padding-right: 2vh;
-  height: 2vh;
+  height: auto;
   position: static;
 }
 

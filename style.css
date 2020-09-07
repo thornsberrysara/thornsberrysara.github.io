@@ -111,6 +111,10 @@ i {
 .icons {
   margin-top: 10vh;
   background-image: none;
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icons a {

@@ -368,10 +368,6 @@ i {
 }
 
 @media only screen and (min-width: 1400px) {
-  * {
-    overflow: hidden;
-  }
-
   .bio {
     margin-top: 2vh;
     padding-left: 50vh;
@@ -401,6 +397,7 @@ i {
 
   .project-page {
     height: 100vh;
+    overflow: hidden;
   }
 
   .skills {

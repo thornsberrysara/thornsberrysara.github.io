@@ -126,16 +126,34 @@ i {
   font-size: 2em;
 }
 
-.left li,
+.left,
+.right {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left li {
+  height: auto;
+  padding: 0.4vh;
+  background-image: none;
+  position: relative;
+  -webkit-animation: diagonal-left 2.5s;
+  -moz-animation: diagonal-left 2.5s;
+  -o-animation: diagonal-left 2.5s;
+  animation: diagonal-left 2.5s;
+}
+
 .right li {
   height: auto;
   padding: 0.4vh;
   background-image: none;
   position: relative;
-  -webkit-animation: diagonal 2s;
-  -moz-animation: diagonal 2s;
-  -o-animation: diagonal 2s;
-  animation: diagonal 2s;
+  -webkit-animation: diagonal-right 2.5s;
+  -moz-animation: diagonal-right 2.5s;
+  -o-animation: diagonal-right 2.5s;
+  animation: diagonal-right 2.5s;
 }
 
 .linkedin,
@@ -159,7 +177,6 @@ i {
   display: flex;
   height: 70%;
   margin-top: 5vh;
-
   -webkit-animation: fadein 2.5s; 
   -moz-animation: fadein 2.5s;
   animation: fadein 2.5s;
@@ -223,21 +240,39 @@ i {
   background-image: none;
 }
 
-@-webkit-keyframes diagonal {
+@-webkit-keyframes diagonal-left {
   0% {
-    transform: translatex(-20px) translatey(-20px);
+    transform: translatex(-50px) translatey(-50px);
   }
   40% {
-    transform: translatex(20px) translatey(20px);
+    transform: translatex(50px) translatey(50px);
   }
 }
 
-@keyframes diagonal {
+@keyframes diagonal-left {
   0% {
-    transform: translatex(-20px) translatey(-20px);
+    transform: translatex(-50px) translatey(-50px);
   }
   40% {
-    transform: translatex(20px) translatey(20px);
+    transform: translatex(50px) translatey(50px);
+  }
+}
+
+@-webkit-keyframes diagonal-right {
+  0% {
+    transform: translatex(50px) translatey(50px);
+  }
+  40% {
+    transform: translatex(-50px) translatey(-50px);
+  }
+}
+
+@keyframes diagonal-right {
+  0% {
+    transform: translatex(50px) translatey(-50px);
+  }
+  40% {
+    transform: translatex(-50px) translatey(50px);
   }
 }
 

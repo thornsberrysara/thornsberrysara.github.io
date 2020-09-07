@@ -195,6 +195,7 @@ i {
   margin-left: auto;
   margin-right: auto;
   padding-top: 5vh;
+  padding-bottom: 4vh;
   box-shadow: 5px 5px 4px rgba(15, 34, 73, 0.39);
 }
 
@@ -225,6 +226,7 @@ i {
   color: #0f2249;
   padding-left: 2vh;
   padding-right: 2vh;
+  height: 30%;
 }
 
 .project-page {

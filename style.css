@@ -220,10 +220,11 @@ i {
   color: #0f2249;
   padding-top: 7vh;
   position: static;
+  height: 10%;
 }
 
 .project p {
-  margin-top: -18vh;
+  margin-top: 4vh;
   font-family: "Abel", monospace;
   color: #0f2249;
   padding-left: 2vh;
@@ -384,7 +385,9 @@ i {
   }
 
   .project {
-    margin-top: 0;
+    margin-top: -2vh;
+    width: 60%;
+    height: 90%;
   }
 
   .project:hover {

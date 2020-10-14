@@ -380,6 +380,11 @@ i {
     padding-right: 50vh;
   }
 
+  h2 {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
   .profile {
     margin-top: 15vh;
   }

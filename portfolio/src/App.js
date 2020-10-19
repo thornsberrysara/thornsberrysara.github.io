@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Code from './pages/Code';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <div className="container">
        <Switch>
           <Route exact path="/about" component={About} />
+          <Route exact path="/code" component={Code} />
           <Route exact path="/" component={Home} />
         </Switch>
      </div>

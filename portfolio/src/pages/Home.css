@@ -4,6 +4,7 @@ h1 {
     text-align: left;
     margin-left: 30px;
     font-size: 2em;
+    padding-right: 3em;
 }
 
 h2 {
@@ -12,6 +13,8 @@ h2 {
     color: #FF6B81;
     text-align: left;
     margin-left: 30px;
+    margin-top: -.2em;
+    padding-right: 3em;
 }
 
 svg {
@@ -31,11 +34,12 @@ svg {
     h2 {
         font-size: 1.6em;
         padding-left: 50px;
+        margin-top: -1em;
     }
 
     svg {
         height: 35em;
         right: 20%;
-        top: 30%;
+        top: 20%;
     }
 }

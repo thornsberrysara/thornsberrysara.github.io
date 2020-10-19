@@ -1,0 +1,44 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card {
+    background-color: #f4e3e3;
+    width: 14em;
+    height: 20em;
+    display: grid;
+    grid-column: 1 / 2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #e3d3d3, -5px -5px 10px #faf1f1;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 0px #e3d3d3, 0px 0px 0px #faf1f1;
+    box-shadow: inset 10px 10px 20px #e3d3d3, -5px -5px 10px #faf1f1;
+}
+
+.card:hover + .tools {
+    display: grid;
+    grid-column: 2 / 3;
+    
+}
+
+.tools {
+    display: none;
+}
+
+.card:nth-child(odd) {
+    text-align: left;
+}
+
+.card:nth-child(even) {
+    text-align: right;
+    background-color: green;
+}
+
+.title {
+    text-align: left;
+    margin: 0;
+}

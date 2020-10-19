@@ -1,0 +1,41 @@
+h1 {
+    font-weight: 700;
+    color: #2B2F38;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #FF6B81;
+    text-align: left;
+    margin-left: 30px;
+}
+
+svg {
+    height: 20em;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+
+@media screen and (min-width: 940px) {
+    h1 {
+        font-size: 2.5em;
+        padding-left: 50px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        padding-left: 50px;
+    }
+
+    svg {
+        height: 35em;
+        right: 20%;
+        top: 30%;
+    }
+}

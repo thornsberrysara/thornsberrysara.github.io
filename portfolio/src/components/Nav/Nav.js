@@ -18,15 +18,15 @@ export default class App extends Component {
         return (
           <>
               <nav>
-                    <button onClick={this.Toggle}>
+                    <button className="toggle-btn" onClick={this.Toggle}>
                     <i className="fas fa-bars"></i>
                     </button>
                     <ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
-                    <Link to="/"><li>home</li></Link>
-                    <Link to="/about"><li>about</li></Link>
-                        <li href="#">code</li>
-                        <li href="#">design</li>
-                        <li href="#">skills</li>
+                    <Link to="/"><li className="nav-link">home</li></Link>
+                    <Link to="/about"><li className="nav-link">about</li></Link>
+                    <Link to="/code"><li className="nav-link">code</li></Link>
+                    <Link to="/design"><li className="nav-link">design</li></Link>
+                    <Link to="/skills/code"><li className="nav-link">skills</li></Link>
                         <li href="#">contact</li>
                     </ul>
               </nav>

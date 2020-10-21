@@ -20,22 +20,20 @@
 }
 
 .card:hover + .tools {
-    display: grid;
-    grid-column: 2 / 3;
-    
+    display: block;
+    position: relative;
+    color: #FF6B81;
 }
 
 .tools {
     display: none;
+    width: 14em;
+    color: #FF6B81;
+    list-style: none;
 }
 
-.card:nth-child(odd) {
-    text-align: left;
-}
-
-.card:nth-child(even) {
-    text-align: right;
-    background-color: green;
+.tools-list {
+    color: #FF6B81;
 }
 
 .title {

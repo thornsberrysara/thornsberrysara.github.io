@@ -10,6 +10,9 @@ import {
   Link
 } from "react-router-dom";
 import Code from './pages/Code';
+import Design from './pages/Design';
+import SkillsCode from './pages/SkillsCode';
+import SkillsDesign from './pages/SkillsDesign';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
        <Switch>
           <Route exact path="/about" component={About} />
           <Route exact path="/code" component={Code} />
+          <Route exact path="/design" component={Design} />
+          <Route exact path="/skills/code" component={SkillsCode} />
+          <Route exact path="/skills/design" component={SkillsDesign} />
           <Route exact path="/" component={Home} />
         </Switch>
      </div>

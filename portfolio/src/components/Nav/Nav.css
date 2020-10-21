@@ -9,7 +9,7 @@ nav {
     height: 5em;
 }
 
-li {
+.nav-link {
     padding: .3em;
 }
 
@@ -25,7 +25,7 @@ li {
     height: 30em;
 }
 
-button {
+.toggle-btn {
     border: none;
     background-color: transparent;
     outline: none;
@@ -47,7 +47,7 @@ button {
         position: fixed;
     }
 
-    button {
+    .toggle-btn {
         display: none;
     }
 

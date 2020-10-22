@@ -3,7 +3,6 @@ import "./Card.css";
 
 const Card = ({ title, description, tools }) => {
   return (
-    <>
     <div className="card-container">
       <div className="card">
         <h3 className="title">{title}</h3>
@@ -13,7 +12,6 @@ const Card = ({ title, description, tools }) => {
         {(tools = tools.map(tool => <li className="tools-list">{tool}</li>))}
       </div>
     </div>
-    </>
   );
 };
 

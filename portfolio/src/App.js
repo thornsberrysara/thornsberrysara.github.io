@@ -6,8 +6,7 @@ import About from "./pages/About";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Code from './pages/Code';
 import Design from './pages/Design';

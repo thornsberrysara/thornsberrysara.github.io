@@ -1,18 +1,38 @@
 .card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+    width: 50vh;
+    margin: auto;
+}
+
+.card-container:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2em;
 }
 
 .card {
     background-color: #f4e3e3;
-    width: 14em;
-    height: 20em;
-    display: grid;
-    grid-column: 1 / 2;
+    width: 12em;
+    height: 16em;
     border-radius: 20px;
     box-shadow: 10px 10px 20px #e3d3d3, -5px -5px 10px #faf1f1;
+    text-align: center;
 }
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+p {
+    text-align: center;
+    font-size: .8em;
+    padding: 1em;
+} 
 
 .card:hover {
     box-shadow: 0px 0px 0px #e3d3d3, 0px 0px 0px #faf1f1;
@@ -21,22 +41,17 @@
 
 .card:hover + .tools {
     display: block;
-    position: relative;
     color: #FF6B81;
 }
 
 .tools {
     display: none;
-    width: 14em;
+    width: auto;
     color: #FF6B81;
     list-style: none;
 }
 
 .tools-list {
     color: #FF6B81;
-}
-
-.title {
-    text-align: left;
-    margin: 0;
+    margin-top: -.3em;
 }

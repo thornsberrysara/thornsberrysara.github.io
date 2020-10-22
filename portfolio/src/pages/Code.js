@@ -21,7 +21,7 @@ const Code = () => {
       <Card
         title="trivia app"
         description="A quiz application based on 'How I Met Your Mother'."
-        tools={["react", "html", "css"]}
+        tools={["react", "css"]}
       />
       <Card
         title="donut maker"
@@ -45,7 +45,7 @@ const Code = () => {
       <Card
         title="to do list"
         description="Add, edit, and delete items on your to-do list."
-        tools={["react", "html", "css"]}
+        tools={["react", "css"]}
       />
     </>
   );

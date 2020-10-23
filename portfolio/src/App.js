@@ -12,6 +12,7 @@ import Code from './pages/Code';
 import Design from './pages/Design';
 import SkillsCode from './pages/SkillsCode';
 import SkillsDesign from './pages/SkillsDesign';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/design" component={Design} />
           <Route exact path="/skills/code" component={SkillsCode} />
           <Route exact path="/skills/design" component={SkillsDesign} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/" component={Home} />
         </Switch>
      </div>

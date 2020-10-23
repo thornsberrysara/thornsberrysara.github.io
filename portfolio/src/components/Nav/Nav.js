@@ -24,7 +24,7 @@ export default class App extends Component {
                     <Link to="/code"><li className="nav-link">code</li></Link>
                     <Link to="/design"><li className="nav-link">design</li></Link>
                     <Link to="/skills/code"><li className="nav-link">skills</li></Link>
-                        <li href="#">contact</li>
+                    <Link to="/contact"><li className="nav-link">contact</li></Link>
                     </ul>
               </nav>
           </>

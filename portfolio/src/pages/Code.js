@@ -12,8 +12,6 @@ const Code = () => {
           "java",
           "spring",
           "mvc",
-          "thymeleaf",
-          "agile (scrum)",
           "html",
           "css"
         ]}
@@ -30,7 +28,7 @@ const Code = () => {
       />
       <Card
         title="music app"
-        description="An SPA where users can create, read, update, and delete artists, albums, and songs, using an API."
+        description="An SPA CRUD app that uses a RESTful API."
         tools={[
           "java",
           "javascript",
@@ -38,8 +36,7 @@ const Code = () => {
           "spring",
           "mvc",
           "html",
-          "css",
-          "agile (scrum)"
+          "css"
         ]}
       />
       <Card

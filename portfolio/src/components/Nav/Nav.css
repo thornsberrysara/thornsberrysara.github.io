@@ -51,7 +51,7 @@ nav {
         display: none;
     }
 
-    li {
+    .nav-link {
         padding: .5em;
     }
 

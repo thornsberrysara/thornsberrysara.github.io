@@ -19,12 +19,12 @@ export default class App extends Component {
                     <i className="fas fa-bars"></i>
                     </button>
                     <ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
-                    <Link to="/"><li className="nav-link">home</li></Link>
-                    <Link to="/about"><li className="nav-link">about</li></Link>
-                    <Link to="/code"><li className="nav-link">code</li></Link>
-                    <Link to="/design"><li className="nav-link">design</li></Link>
-                    <Link to="/skills/code"><li className="nav-link">skills</li></Link>
-                    <Link to="/contact"><li className="nav-link">contact</li></Link>
+                    <Link to="/" onClick={this.Toggle}><li className="nav-link">home</li></Link>
+                    <Link to="/about" onClick={this.Toggle}><li className="nav-link">about</li></Link>
+                    <Link to="/code" onClick={this.Toggle}><li className="nav-link">code</li></Link>
+                    <Link to="/design" onClick={this.Toggle}><li className="nav-link">design</li></Link>
+                    <Link to="/skills/code" onClick={this.Toggle}><li className="nav-link">skills</li></Link>
+                    <Link to="/contact" onClick={this.Toggle}><li className="nav-link">contact</li></Link>
                     </ul>
               </nav>
           </>

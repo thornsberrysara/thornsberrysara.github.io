@@ -6,11 +6,11 @@ const Contact = () => {
         <>
         <h3>contact</h3>
         <ul className="contact-links">
-            <li><i class="fab fa-github"></i></li>
-            <li><i class="fab fa-behance-square"></i></li>
-            <li><i class="fab fa-linkedin"></i></li>
-            <li><i class="far fa-envelope"></i></li>
-            <li><i class="far fa-file"></i></li>
+            <li className="contact-link"><i className="fab fa-github"></i></li>
+            <li className="contact-link"><i className="fab fa-behance-square"></i></li>
+            <li className="contact-link"><i className="fab fa-linkedin"></i></li>
+            <li className="contact-link"><i className="far fa-envelope"></i></li>
+            <li className="contact-link"><i className="far fa-file"></i></li>
         </ul>
     </>
     );

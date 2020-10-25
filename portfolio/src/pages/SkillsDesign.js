@@ -10,7 +10,7 @@ const SkillsDesign = () => {
     <div className="skills">
         <div className="buttons">
         <Link to="/skills/code"><button className="off">code</button></Link>
-        <Link><button className="on">design</button></Link>
+        <Link to="/skills/design"><button className="on">design</button></Link>
         </div>
         <ul className="skills-list">
             <li>figma</li>

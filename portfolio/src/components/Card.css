@@ -1,7 +1,7 @@
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 60vh;
+    width: 40vh;
     margin: auto;
     margin-bottom: 5em;
     margin-top: 5em;
@@ -45,6 +45,11 @@ p {
 
 
 @media screen and (min-width: 940px) {
+
+    .card-container {
+        width: 60vh;
+    }
+
     .card:hover {
         box-shadow: 0px 0px 0px #e3d3d3, 0px 0px 0px #faf1f1;
         box-shadow: inset 10px 10px 20px #e3d3d3, -5px -5px 10px #faf1f1;

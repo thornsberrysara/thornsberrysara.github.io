@@ -9,7 +9,7 @@ const SkillsCode = () => {
         <h3>skills</h3>
     <div className="skills">
         <div className="buttons">
-        <Link><button className="on">code</button></Link>
+        <Link to="/skills/code"><button className="on">code</button></Link>
         <Link to="/skills/design"><button className="off">design</button></Link>
         </div>
         <ul className="skills-list">

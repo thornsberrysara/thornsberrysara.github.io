@@ -65,20 +65,24 @@
   transform: rotate(180deg);
 }
 
-#code-section {
+#code-section,
+#design-section {
   background-color: #f7dedd;
   padding: 2em 1em 3em 1em;
 }
 
-#code-section h2 {
+#code-section h2,
+#design-section h2 {
   color: #ea4d5a;
   font-family: "Lemon", sans-serif;
   font-size: 1.3em;
   padding: 0.5em 0 0.5em 0;
   background-color: #f7dedd;
+  margin-bottom: 2em;
 }
 
-.code-projects {
+.code-projects,
+.design-projects {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -92,7 +96,39 @@
     margin-top: -2em;
 }
 
+.fiddly {
+    margin-top: 3em;
+}
+
 text {
   font-family: "Lemon", sans-serif;
   font-size: 0.8em;
+}
+
+#contact-section .line {
+    background-color: #f7b8bb;
+  width: 3em;
+  height: 0.4em;
+  margin-top: 1em;
+  display: block;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.contact-links {
+    text-align: center;
+    color: #ea4d5a;
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+.contact-links i {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+footer p {
+    text-align: center;
+    color: #ea4d5a;
+    margin-bottom: 2em;
 }

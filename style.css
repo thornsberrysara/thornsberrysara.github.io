@@ -4,10 +4,16 @@
   background-color: #f7dedd;
 }
 
+html {
+  width: 100%;
+}
+
 #main-section {
   height: 60vh;
   background-color: #f7dedd;
   padding: 0 1em 3em 1em;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #main-section h1 {
@@ -27,6 +33,7 @@
 #main-section svg {
   margin-left: 25%;
   margin-top: 25%;
+  overflow-x: hidden;
 }
 
 #main-section .line {
@@ -38,11 +45,16 @@
 
 .transition1 svg {
   margin-bottom: -1em;
+  position: relative;
+  z-index: 0;
 }
 
 #about-section {
   background-color: #ea4d5a;
   padding: 0 1em 3em 1em;
+  height: auto;
+  position: relative;
+  z-index: 1;
 }
 
 #about-section h2 {
@@ -58,17 +70,21 @@
   font-family: "Open Sans Condensed";
   font-weight: lighter;
   background-color: #ea4d5a;
+  padding-right: 1em;
 }
 
 .transition2 svg {
-  margin-top: -1em;
   transform: rotate(180deg);
+  position: relative;
+  margin-top: -1em;
+  z-index: 0;
+  background-color: #f7dedd;
 }
 
 #code-section,
 #design-section {
   background-color: #f7dedd;
-  padding: 2em 1em 3em 1em;
+  padding: 2em 2em 3em 2em;
 }
 
 #code-section h2,
@@ -83,21 +99,21 @@
 
 .code-projects,
 .design-projects {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .trivia-app {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .donut-maker {
-    margin-top: -2em;
+  margin-top: 0em;
 }
 
 .fiddly {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 text {
@@ -106,7 +122,7 @@ text {
 }
 
 #contact-section .line {
-    background-color: #f7b8bb;
+  background-color: #f7b8bb;
   width: 3em;
   height: 0.4em;
   margin-top: 1em;
@@ -116,19 +132,19 @@ text {
 }
 
 .contact-links {
-    text-align: center;
-    color: #ea4d5a;
-    font-size: 1.8em;
-    margin-bottom: 2em;
+  text-align: center;
+  color: #ea4d5a;
+  font-size: 1.5em;
+  margin-bottom: 2em;
 }
 
 .contact-links i {
-    padding-left: .5em;
-    padding-right: .5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 footer p {
-    text-align: center;
-    color: #ea4d5a;
-    margin-bottom: 2em;
+  text-align: center;
+  color: #f7b8bb;
+  margin-bottom: 4em;
 }

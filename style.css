@@ -300,6 +300,14 @@ footer p {
   #code-section h2,
   #design-section h2 {
     font-size: 1.8em;
+
+  h2 {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .profile {
+    margin-top: 15vh;
   }
 
   #about-section p {

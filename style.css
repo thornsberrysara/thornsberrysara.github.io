@@ -133,33 +133,134 @@ footer p {
   font-family: "Open Sans Condensed";
 }
 
-.project {
-    text-align: center;
-    position: relative;
-    background-color: transparent;
-    height: min-content;
-    padding-left: 3em;
-    padding-right: 3em;
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8 {
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  height: min-content;
+  padding: 1em;
 }
 
-.project img {
-    width: 90%;
+.project1,
+.project6 {
+  animation: move1 3s ease-in-out;
+  transform-origin: 50% 50%;
+  animation-delay: 3s;
+}
+
+.project2,
+.project4,
+.project7 {
+  animation: move2 3.5s ease-in-out;
+  transform-origin: 50% 50%;
+  animation-delay: 3s;
+}
+
+.project3,
+.project8 {
+  animation: move3 4s ease-in-out;
+  transform-origin: 50% 50%;
+  animation-delay: 3s;
+}
+
+.project5 {
+  animation: move4 3.5s ease-in-out;
+  transform-origin: 50% 50%;
+  animation-delay: 3s;
+}
+
+.project1 img,
+.project2 img,
+.project3 img,
+.project4 img,
+.project5 img,
+.project6 img,
+.project7 img,
+.project8 img {
+  width: 100%;
+}
+
+@keyframes move1 {
+  0% {
+    transform: scale(1);
+  }
+  28% {
+    transform: scale(0.55, 1.5);
+  }
+  30% {
+    transform: scale(0.55, 1.5);
+  }
+  110% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: scale(1);
+  }
+  28% {
+    transform: scale(1.55, 0.5);
+  }
+  30% {
+    transform: scale(1.55, 0.5);
+  }
+  110% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move3 {
+  0% {
+    transform: scale(1);
+  }
+  28% {
+    transform: scale(0.25, 1);
+  }
+  30% {
+    transform: scale(0.25, 1);
+  }
+  110% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move4 {
+  0% {
+    transform: scale(1);
+  }
+  28% {
+    transform: scale(1.5, 0.8);
+  }
+  30% {
+    transform: scale(1.5, 0.8);
+  }
+  110% {
+    transform: scale(1);
+  }
 }
 
 #code-section .title,
 #design-section .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    font-family: "Lemon", sans-serif;
-    font-size: .7em;
-    color: #f7dedd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-family: "Lemon", sans-serif;
+  font-size: 0.7em;
+  color: #f7dedd;
 }
 
 #design-section .title {
-    color: #ea4d5a;
+  color: #ea4d5a;
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {
@@ -172,7 +273,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 1000px) {
   #main-section,
   #about-section,
   #code-section,
@@ -186,6 +287,8 @@ footer p {
     margin-top: 5%;
     margin-left: 50%;
     width: 22em;
+    animation: move4 3s ease-in-out;
+    transform-origin: 50% 50%;
   }
 
   #main-section h1 {
@@ -196,16 +299,49 @@ footer p {
   #main-section h2,
   #about-section h2,
   #code-section h2,
-  #design-section h2{
+  #design-section h2 {
     font-size: 1.8em;
   }
 
   #about-section p {
-      font-size: 1.3em;
+    font-size: 1.3em;
+  }
+
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6,
+  .project7,
+  .project8 {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .project1 img,
+  .project2 img,
+  .project3 img,
+  .project4 img,
+  .project5 img,
+  .project6 img,
+  .project7 img,
+  .project8 img {
+    width: 135%;
+  }
+
+  #code-section .title,
+  #design-section .title {
+    font-size: 0.8em;
+  }
+
+  .code-projects,
+  .design-projects {
+    padding-left: 8em;
+    padding-right: 8em;
   }
 
   .contact-links {
-      font-size: 2em;
+    font-size: 2em;
   }
-
 }

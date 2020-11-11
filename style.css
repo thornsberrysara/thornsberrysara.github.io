@@ -149,31 +149,27 @@ footer p {
 }
 
 .project1,
-.project6 {
-  animation: move1 3s ease-in-out;
+.project8 {
+  animation: move1 3s infinite;
   transform-origin: 50% 50%;
-  animation-delay: 3s;
 }
 
 .project2,
 .project4,
 .project7 {
-  animation: move2 3.5s ease-in-out;
+  animation: move2 3.5s infinite;
   transform-origin: 50% 50%;
-  animation-delay: 3s;
 }
 
 .project3,
-.project8 {
-  animation: move3 4s ease-in-out;
+.project6 {
+  animation: move3 4s infinite;
   transform-origin: 50% 50%;
-  animation-delay: 3s;
 }
 
 .project5 {
-  animation: move4 3.5s ease-in-out;
+  animation: move4 3.7s infinite;
   transform-origin: 50% 50%;
-  animation-delay: 3s;
 }
 
 .project1 img,
@@ -192,10 +188,10 @@ footer p {
     transform: scale(1);
   }
   28% {
-    transform: scale(0.55, 1.5);
+    transform: scale(0.85, 1.2);
   }
   30% {
-    transform: scale(0.55, 1.5);
+    transform: scale(0.85, 1.2);
   }
   110% {
     transform: scale(1);
@@ -207,10 +203,10 @@ footer p {
     transform: scale(1);
   }
   28% {
-    transform: scale(1.55, 0.5);
+    transform: scale(1.15, 0.8);
   }
   30% {
-    transform: scale(1.55, 0.5);
+    transform: scale(1.15, 0.8);
   }
   110% {
     transform: scale(1);
@@ -222,10 +218,10 @@ footer p {
     transform: scale(1);
   }
   28% {
-    transform: scale(0.25, 1);
+    transform: scale(0.95, 1.2);
   }
   30% {
-    transform: scale(0.25, 1);
+    transform: scale(0.95, 1.2);
   }
   110% {
     transform: scale(1);
@@ -237,10 +233,10 @@ footer p {
     transform: scale(1);
   }
   28% {
-    transform: scale(1.5, 0.8);
+    transform: scale(1.15, 0.6);
   }
   30% {
-    transform: scale(1.5, 0.8);
+    transform: scale(1.15, 0.6);
   }
   110% {
     transform: scale(1);
@@ -287,7 +283,7 @@ footer p {
     margin-top: 5%;
     margin-left: 50%;
     width: 22em;
-    animation: move4 3s ease-in-out;
+    animation: move4 4s infinite;
     transform-origin: 50% 50%;
   }
 
@@ -315,8 +311,7 @@ footer p {
   .project6,
   .project7,
   .project8 {
-    padding-left: 5em;
-    padding-right: 5em;
+    padding: 1em 5em 1em 5em;
   }
 
   .project1 img,

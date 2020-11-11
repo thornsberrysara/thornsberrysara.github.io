@@ -116,9 +116,12 @@ html {
 
 .contact-links {
   text-align: center;
-  color: #ea4d5a;
   font-size: 1.5em;
   margin-bottom: 2em;
+}
+
+.contact-links a {
+    color: #ea4d5a;
 }
 
 .contact-links i {
@@ -283,7 +286,7 @@ footer p {
     margin-top: 5%;
     margin-left: 50%;
     width: 22em;
-    animation: move4 4s infinite;
+    animation: move1 4s infinite;
     transform-origin: 50% 50%;
   }
 

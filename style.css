@@ -104,23 +104,6 @@ html {
   flex-wrap: wrap;
 }
 
-.trivia-app {
-  margin-top: 5em;
-}
-
-.donut-maker {
-  margin-top: 0em;
-}
-
-.fiddly {
-  margin-top: 3em;
-}
-
-text {
-  font-family: "Lemon", sans-serif;
-  font-size: 0.8em;
-}
-
 #contact-section .line {
   background-color: #f7b8bb;
   width: 3em;
@@ -147,6 +130,36 @@ footer p {
   text-align: center;
   color: #f7b8bb;
   margin-bottom: 4em;
+  font-family: "Open Sans Condensed";
+}
+
+.project {
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    height: min-content;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.project img {
+    width: 90%;
+}
+
+#code-section .title,
+#design-section .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-family: "Lemon", sans-serif;
+    font-size: .7em;
+    color: #f7dedd;
+}
+
+#design-section .title {
+    color: #ea4d5a;
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {
@@ -172,7 +185,7 @@ footer p {
     display: block;
     margin-top: 5%;
     margin-left: 50%;
-    width: 25em;
+    width: 22em;
   }
 
   #main-section h1 {
@@ -180,7 +193,19 @@ footer p {
     font-size: 3em;
   }
 
-  #main-section h2 {
+  #main-section h2,
+  #about-section h2,
+  #code-section h2,
+  #design-section h2{
     font-size: 1.8em;
   }
+
+  #about-section p {
+      font-size: 1.3em;
+  }
+
+  .contact-links {
+      font-size: 2em;
+  }
+
 }

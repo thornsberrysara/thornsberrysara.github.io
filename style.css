@@ -272,7 +272,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 760px) {
   #main-section,
   #about-section,
   #code-section,
@@ -286,13 +286,16 @@ footer p {
     margin-top: 5%;
     margin-left: 50%;
     width: 22em;
-    animation: move1 4s infinite;
+    animation: move2 4s infinite;
     transform-origin: 50% 50%;
   }
 
   #main-section h1 {
     margin-top: -10%;
     font-size: 3em;
+    position: relative;
+    width: fit-content;
+    background-color: transparent;
   }
 
   #main-section h2,

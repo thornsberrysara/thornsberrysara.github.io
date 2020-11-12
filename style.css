@@ -21,6 +21,9 @@ html {
   font-family: "Lemon", sans-serif;
   font-size: 2em;
   margin-top: -50%;
+  position: relative;
+  width: fit-content;
+  background-color: transparent;
 }
 
 #main-section h2 {
@@ -28,12 +31,17 @@ html {
   font-family: "Open Sans Condensed";
   font-weight: lighter;
   font-size: 1.3em;
+  position: relative;
+  width: fit-content;
+  background-color: transparent;
 }
 
 #main-section img {
   margin-left: 25%;
   margin-top: 25%;
   overflow-x: hidden;
+  animation: move2 4s infinite;
+  transform-origin: 50% 50%;
 }
 
 #main-section .line {
@@ -121,7 +129,7 @@ html {
 }
 
 .contact-links a {
-    color: #ea4d5a;
+  color: #ea4d5a;
 }
 
 .contact-links i {
@@ -152,13 +160,13 @@ footer p {
 }
 
 .project1,
-.project8 {
+.project8,
+.project4 {
   animation: move1 3s infinite;
   transform-origin: 50% 50%;
 }
 
 .project2,
-.project4,
 .project7 {
   animation: move2 3.5s infinite;
   transform-origin: 50% 50%;
@@ -286,16 +294,11 @@ footer p {
     margin-top: 5%;
     margin-left: 50%;
     width: 22em;
-    animation: move2 4s infinite;
-    transform-origin: 50% 50%;
   }
 
   #main-section h1 {
     margin-top: -10%;
     font-size: 3em;
-    position: relative;
-    width: fit-content;
-    background-color: transparent;
   }
 
   #main-section h2,
@@ -303,14 +306,6 @@ footer p {
   #code-section h2,
   #design-section h2 {
     font-size: 1.8em;
-
-  h2 {
-    padding-left: 2vh;
-    padding-right: 2vh;
-  }
-
-  .profile {
-    margin-top: 15vh;
   }
 
   #about-section p {

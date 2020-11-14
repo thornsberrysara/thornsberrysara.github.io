@@ -270,15 +270,7 @@ footer p {
   color: #ea4d5a;
 }
 
-@media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {
-  #main-section img {
-    display: none;
-  }
 
-  #main-section h1 {
-    margin-top: 2em;
-  }
-}
 
 @media only screen and (min-width: 760px) {
   #main-section,
@@ -349,3 +341,13 @@ footer p {
     font-size: 2em;
   }
 }
+
+@media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {
+    #main-section img {
+      display: none;
+    }
+  
+    #main-section h1 {
+      margin-top: 2em;
+    }
+  }

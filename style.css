@@ -90,13 +90,19 @@ html {
 }
 
 #code-section,
-#design-section {
+#design-section,
+#blog-section {
   background-color: #f7dedd;
   padding: 2em 2em 3em 2em;
 }
 
+#design-section {
+  padding-bottom: 0em;
+}
+
 #code-section h2,
-#design-section h2 {
+#design-section h2,
+#blog-section h2 {
   color: #ea4d5a;
   font-family: "Lemon", sans-serif;
   font-size: 1.3em;
@@ -110,6 +116,57 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#blog-section {
+  background-color: #f7b8bb;
+  position: relative;
+  z-index: 1;
+}
+
+#blog-section h2 {
+  background-color: #f7b8bb;
+}
+
+.posts {
+  background-color: #f7b8bb;
+  display: flex;
+  justify-content: center;
+}
+
+#medium-widget {
+  width: 12em;
+  border-radius: 20px;
+  border: #f7dedd 20px solid;
+}
+
+.medium-widget-article__title {
+  color: #ea4d5a;
+  font-family: "Lemon", sans-serif;
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+}
+
+.medium-widget-article__description {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+}
+
+.medium-widget-article__avatar-picture {
+  display: none;
+}
+
+.medium-widget-article__date {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.8em;
+}
+
+.medium-widget-article__author-name {
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #ea4d5a;
+  font-size: 0.8em;
 }
 
 #contact-section .line {
@@ -276,7 +333,8 @@ footer p {
   #main-section,
   #about-section,
   #code-section,
-  #design-section {
+  #design-section,
+  #blog-section {
     padding-left: 5em;
     padding-right: 5em;
   }
@@ -296,7 +354,8 @@ footer p {
   #main-section h2,
   #about-section h2,
   #code-section h2,
-  #design-section h2 {
+  #design-section h2,
+  #blog-section h2 {
     font-size: 1.8em;
   }
 
@@ -340,6 +399,30 @@ footer p {
   .contact-links {
     font-size: 2em;
   }
+
+  #medium-widget {
+    width: 15em;
+  }
+
+  .medium-widget-article__title {
+    color: #ea4d5a;
+    font-family: "Lemon", sans-serif;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+  }
+  
+  .medium-widget-article__description {
+    font-family: "Open Sans Condensed", sans-serif;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  .medium-widget-article__author-name,
+  .medium-widget-article__date {
+    font-size: 1.1em;
+  }
+
+
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {

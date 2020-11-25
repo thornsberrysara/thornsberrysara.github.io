@@ -163,7 +163,7 @@ html {
 }
 
 .medium-widget-article__author-name {
-  margin: 0;
+  margin: 0 !important;
   font-family: "Open Sans Condensed", sans-serif;
   color: #ea4d5a !important;
   font-size: 0.8em !important;

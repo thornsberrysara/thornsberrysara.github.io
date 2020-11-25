@@ -135,7 +135,7 @@ html {
 }
 
 #medium-widget {
-  width: 15em;
+  width: 12em;
   border-radius: 20px;
   border: #f7dedd 20px solid;
 }
@@ -143,13 +143,14 @@ html {
 .medium-widget-article__title {
   color: #ea4d5a;
   font-family: "Lemon", sans-serif;
-  padding-bottom: 1em;
-  font-size: 1.1em;
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
 }
 
 .medium-widget-article__description {
   font-family: "Open Sans Condensed", sans-serif;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
 }
 
 .medium-widget-article__avatar-picture {
@@ -158,12 +159,14 @@ html {
 
 .medium-widget-article__date {
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.8em;
 }
 
 .medium-widget-article__author-name {
   margin: 0;
   font-family: "Open Sans Condensed", sans-serif;
   color: #ea4d5a;
+  font-size: 0.8em;
 }
 
 #contact-section .line {
@@ -396,6 +399,30 @@ footer p {
   .contact-links {
     font-size: 2em;
   }
+
+  #medium-widget {
+    width: 15em;
+  }
+
+  .medium-widget-article__title {
+    color: #ea4d5a;
+    font-family: "Lemon", sans-serif;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+  }
+  
+  .medium-widget-article__description {
+    font-family: "Open Sans Condensed", sans-serif;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  .medium-widget-article__author-name,
+  .medium-widget-article__date {
+    font-size: 1.1em;
+  }
+
+
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 250px) and (max-device-width: 880px) {

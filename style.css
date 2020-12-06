@@ -138,17 +138,11 @@ html {
   justify-content: center;
 }
 
-/* #medium-widget {
-  width: 12em;
-  border-radius: 20px;
-  border: #f7dedd 20px solid;
-} */
-
 .medium-widget-article__row {
-  display: grid;
-  gap: 0.8em;
+  display: grid !important;
+  gap: 0.8em !important;
   background-color: #f7b8bb;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr !important;
 }
 
 .medium-widget-article__item {
@@ -430,7 +424,7 @@ footer p {
   }
 
   .medium-widget-article__row {
-    gap: 3em;
+    gap: 3em !important;
   }
 
   .medium-widget-article__title {

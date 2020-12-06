@@ -100,7 +100,7 @@ html {
 }
 
 #design-section {
-  padding-bottom: 0em;
+  height: auto;
 }
 
 #code-section h2,

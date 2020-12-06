@@ -6,6 +6,7 @@
 
 html {
   width: 100%;
+  overflow-x: hidden;
 }
 
 #main-section {
@@ -63,6 +64,7 @@ html {
   height: auto;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 #about-section h2 {
@@ -94,6 +96,7 @@ html {
 #blog-section {
   background-color: #f7dedd;
   padding: 2em 2em 3em 2em;
+  overflow-x: hidden;
 }
 
 #design-section {
@@ -122,6 +125,7 @@ html {
   background-color: #f7b8bb;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 #blog-section h2 {
@@ -134,22 +138,34 @@ html {
   justify-content: center;
 }
 
-#medium-widget {
+/* #medium-widget {
   width: 12em;
   border-radius: 20px;
   border: #f7dedd 20px solid;
+} */
+
+.medium-widget-article__row {
+  display: grid;
+  gap: 0.8em;
+  background-color: #f7b8bb;
+  grid-template-columns: 1fr 1fr;
+}
+
+.medium-widget-article__item {
+  width: 10em;
+  border-radius: 20px;
 }
 
 .medium-widget-article__title {
   color: #ea4d5a !important;
   font-family: "Lemon", sans-serif;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.2em;
   font-size: 0.8em !important;
 }
 
 .medium-widget-article__description {
   font-family: "Open Sans Condensed", sans-serif;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.2em;
   font-size: 0.8em;
 }
 
@@ -160,6 +176,7 @@ html {
 .medium-widget-article__date {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 0.8em;
+  padding: 0 !important;
 }
 
 .medium-widget-article__author-name {
@@ -167,6 +184,10 @@ html {
   font-family: "Open Sans Condensed", sans-serif;
   color: #ea4d5a !important;
   font-size: 0.8em !important;
+}
+
+#contact-section {
+  overflow-x: hidden;
 }
 
 #contact-section .line {
@@ -248,7 +269,7 @@ footer p {
 .project6 img,
 .project7 img,
 .project8 img {
-  width: 100%;
+  width: 90%;
 }
 
 @keyframes move1 {
@@ -401,7 +422,15 @@ footer p {
   }
 
   #medium-widget {
+    width: 50%;
+  }
+
+  .medium-widget-article__item {
     width: 15em;
+  }
+
+  .medium-widget-article__row {
+    gap: 3em;
   }
 
   .medium-widget-article__title {

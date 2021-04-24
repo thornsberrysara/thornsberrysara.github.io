@@ -148,6 +148,7 @@ body {
   #tech .text {
     text-align: left;
     margin-left: 10%;
+    margin-right: 10%;
   }
 
   #home .text {
@@ -156,15 +157,21 @@ body {
 
   #about .text,
   #tech .text {
-    width: 40%;
+    /* width: 40%; */
   }
 
   .logos ul {
-    width: 40%;
+    /* width: 40%; */
     margin-left: 10%;
+    margin-right: 10%;
   }
 
   #social {
     padding-top: 4em;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

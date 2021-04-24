@@ -22,7 +22,7 @@ if (screen.width > 760) {
     function A() {
       var x = R(a, w.innerWidth),
         y = R(b, w.innerHeight),
-        d = 5 * Math.sqrt((a - x) * (a - x) + (b - y) * (b - y));
+        d = 7 * Math.sqrt((a - x) * (a - x) + (b - y) * (b - y));
       zs.opacity = n;
       n = 1;
       zs.transition = zs.webkitTransition = d / 1e3 + "s linear";

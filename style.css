@@ -51,11 +51,13 @@ body {
 }
 
 #about {
-  height: 70vh;
+  height: auto;
+  margin-bottom: 20em;
 }
 
 #tech {
   height: auto;
+  margin-bottom: 5em;
 }
 
 #about .text,
@@ -71,12 +73,14 @@ body {
   font-size: 1.5em;
   color: #b2b5d2;
   padding-bottom: 1em;
+  overflow-y: hidden;
 }
 
 #about p,
 #tech p {
   font-size: 1em;
   color: #5e5f85;
+  overflow-y: hidden;
 }
 
 .logos img {
@@ -140,6 +144,36 @@ body {
   }
 }
 
+@media only screen and (max-width: 330px) {
+  #home h1 {
+    font-size: 2em;
+  }
+
+  #home h2,
+  #about h2,
+  #tech h2 {
+    font-size: 1.3em;
+  }
+
+  #about p,
+  #tech p {
+    font-size: 1em;
+  }
+
+  #about,
+  #tech {
+    margin-bottom: 10em;
+  }
+
+  .logos img {
+    width: 1.5em;
+  }
+
+  #social li {
+    font-size: 1em;
+  }
+}
+
 @media only screen and (min-width: 760px) {
   * {
     text-align: left;
@@ -199,7 +233,9 @@ body {
   }
 
   #about {
-    height: 50vh;
+    /* height: 50vh; */
+    height: auto;
+    margin-bottom: 20em;
     margin-left: 10%;
   }
 

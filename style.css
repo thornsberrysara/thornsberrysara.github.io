@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* background-color: #101120; */
   text-align: center;
   overflow-x: hidden;
   font-family: "Open Sans";
@@ -26,11 +24,6 @@ body {
   margin-top: 50%;
   padding: 2.5em;
   overflow-y: hidden;
-  /* margin-left: 10%; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%); */
 }
 
 #home h1 {
@@ -62,7 +55,6 @@ body {
 
 #about .text,
 #tech .text {
-  /* margin-left: 10%; */
   padding: 2.5em;
   margin-left: auto;
   margin-right: auto;
@@ -109,7 +101,6 @@ body {
 
 #social ul {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   list-style: none;
 }
@@ -195,13 +186,7 @@ body {
     margin-top: 25%;
   }
 
-  #about .text,
-  #tech .text {
-    /* width: 40%; */
-  }
-
   .logos ul {
-    /* width: 40%; */
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -233,7 +218,6 @@ body {
   }
 
   #about {
-    /* height: 50vh; */
     height: auto;
     margin-bottom: 20em;
     margin-left: 10%;

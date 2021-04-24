@@ -25,6 +25,7 @@ body {
   text-align: center;
   margin-top: 50%;
   padding: 2.5em;
+  overflow-y: hidden;
   /* margin-left: 10%; */
   /* position: absolute;
   top: 50%;
@@ -90,6 +91,7 @@ body {
   padding-top: 0;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .logos li {
@@ -143,6 +145,10 @@ body {
     text-align: left;
   }
 
+  #home h1 {
+    font-size: 2.8em;
+  }
+
   #home .text,
   #about .text,
   #tech .text {
@@ -173,5 +179,41 @@ body {
   .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #home h1 {
+    font-size: 4em;
+  }
+
+  #home h2,
+  #about h2,
+  #tech h2 {
+    font-size: 2em;
+  }
+
+  #about p,
+  #tech p {
+    font-size: 1.4em;
+  }
+
+  #about {
+    height: 50vh;
+    margin-left: 10%;
+  }
+
+  #tech {
+    justify-self: right;
+    margin-right: 10%;
+  }
+
+  #about,
+  #tech {
+    width: 80%;
+  }
+
+  #social li {
+    font-size: 1.5em;
   }
 }
